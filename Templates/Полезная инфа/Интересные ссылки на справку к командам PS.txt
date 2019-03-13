@@ -1,0 +1,55 @@
+about_Command_Syntax              HelpFile  Описывает синтаксис, используемый в справке для Windows PowerShell.  
+
+
+about_pipelines                   HelpFile  Объединение команд в конвейеры в Windows PowerShell                                      
+about_wildcards                   HelpFile  Описывает использование подстановочных знаков в Windows PowerShell.
+about_Variables                   HelpFile  Описание хранения переменными значений, используемых в Windows 
+about_try_catch_finally           HelpFile  Описание использования блоков Try, Catch и Finally для обработки   
+about_trap                        HelpFile  Описывает ключевое слово, обрабатывающее прерывающие ошибки. 
+about_Throw                       HelpFile  Описание ключевого слова Throw, генерирующего ошибку с 
+about_Switch                      HelpFile  Описание использования инструкции Switch для обработки нескольких   
+about_Special_Characters          HelpFile  Описание специальных символов, которые можно использовать, чтобы    
+about_script_blocks               HelpFile  Определение блока скрипта и описание использования блоков скрипта
+about_Reserved_Words              HelpFile  Содержит список зарезервированных слов, которые имеют специальное
+about_regular_expressions         HelpFile  Описание регулярных выражений в Windows PowerShell.
+about_Redirection                 HelpFile  Описывает порядок перенаправления вывода из Windows PowerShell  
+about_prompts                     HelpFile  Описывает функцию Prompt и показывает, как создать пользовательску   
+about_preference_variables        HelpFile  Переменные, которые настраивают поведение Windows PowerShell
+about_parameters                  HelpFile  Описание работы с параметрами командлетов в Windows PowerShell. 
+about_operators                   HelpFile  Описание операторов, поддерживаемых в Windows PowerShell.  
+about_methods                     HelpFile  Описание способов использования методов для выполнения действий с  
+about_locations                   HelpFile  Описание способов доступа к элементам из рабочего местоположения                         
+about_logical_operators           HelpFile  Описание операторов, объединяющих инструкции Windows PowerShell.    
+about_jobs                        HelpFile  Сведения о выполнении команд и выражений в фоновых заданиях Windows                      
+about_job_details                 HelpFile  Содержит сведения о фоновых заданиях на локальных и удаленных 
+about_functions                   HelpFile  Описывает, как создавать и использовать функции в Windows PowerShell.                    
+about_escape_characters           HelpFile  Представляет escape-символы Windows PowerShell и их назначение.                          
+about_environment_variables       HelpFile  Описывает, как обращаться к переменным среды Windows из Windows
+about_debuggers                   HelpFile  Описывает отладчик Windows PowerShell.
+about_Comparison_Operators        HelpFile  Описание операторов сравнения, используемых в Windows PowerShell.    
+about_CommonParameters            HelpFile  Описание параметров, которые могут использоваться с любым командлетом. 
+about_Comment_Based_Help          HelpFile  Описание написания разделов справки на основе комментариев для    
+about_Assignment_Operators        HelpFile  Описание использования операторов для присваивания значений     
+about_Arithmetic_Operators        HelpFile  Описание арифметических операторов, используемых в Windows PowerShell.  
+about_ActiveDirectory_Filter      HelpFile  Описывает синтаксис и поведение фильтра поиска, поддерживаемого  
+
+
+
+about_Until
+about_Break                       HelpFile  Описывает инструкции, которые можно использовать для немедленного 
+about_Continue                    HelpFile  Описывает использование инструкции Continue для немедленного перехода                    
+about_do                          HelpFile  Выполняет список инструкций один или несколько раз в зависимости 
+about_Foreach                     HelpFile  Описывает команду языка, позволяющую перебрать все элементы в 
+
+
+
+
+
+
+
+about_remote                      HelpFile  Описывает, как выполнять удаленные команды в Windows PowerShell.                         
+about_remote_FAQ                  HelpFile  Содержит вопросы о выполнении удаленных команд в Windows                                 
+about_remote_jobs                 HelpFile  Описывает, как выполнять фоновые задания на удаленных компьютерах.                       
+about_remote_output               HelpFile  Описывает, как интерпретировать и форматировать выходные данные                          
+about_remote_requirements         HelpFile  Описывает требования к системе и конфигурации для выполнения удаленных                   
+about_remote_troubleshooting      HelpFile  Описывает, как устранять неполадки удаленных операций в                                  

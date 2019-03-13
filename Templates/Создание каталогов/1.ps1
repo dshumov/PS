@@ -1,0 +1,1 @@
+﻿Get-Content D:\Объекты\1.txt | ForEach-Object {New-Item D:\Объекты\$_ -type directory -force}

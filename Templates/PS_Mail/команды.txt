@@ -1,0 +1,34 @@
+Обновление адресной книги
+Get-GlobalAddressList | Update-GlobalAddressList
+Get-OfflineAddressbook | Update-OfflineAddressbook
+Get-AddressList | Update-AddressList
+
+Добавление доменов в "белый" список
+Set-ContentFilterConfig -BypassedSenderDomains domain1.ru,domain2.com,domain3.net
+Set-ContentFilterConfig –BypassedSenderDomains @{Add="domain6.com", "domain7.net"}
+
+Добавление отправителей в "черный" список
+Set-RecipientFilterConfig -BlockListEnabled $true
+Set-RecipientFilterConfig -BlockedRecipients mark@contoso.com,kim@contoso.com
+
+Просмотр "белого" списка
+Get-ContentFilterConfig
+
+Настройки функций защиты от нежелательной почты для почтовых ящиков
+Get-Mailbox -OrganizationalUnit Contoso.com/Users | Set-Mailbox -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
+Просмотр настроек по ящикам
+Get-Mailbox [<Filter>] | Format-List Name,SCL*,*SenderAuth*
+
+Настройки порогов нежелательной почты для всех почтовых ящиков в организации
+Set-OrganizationConfig -SCLJunkThreshold 5
+Проверка настройки
+Get-OrganizationConfig | Format-List SCLJunkThreshold
+
+Просмотр настроек антиспама
+Get-ContentFilterConfig | Format-List *Enabled,RejectionResponse,*Postmark*,Bypassed*,Quarantine*;
+Get-SenderFilterConfig | Format-List *Enabled,*Block*
+Get-SenderIDConfig | Format-List *Enabled*,*Action,Bypassed*
+Get-SenderReputationConfig | Format-List *Enabled*,*Proxy*,*Block*,*Ports*
+
+Логи антиспама
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\Hub\AgentLog
