@@ -1,1 +1,0 @@
-| Select-Object name | Sort-Object name

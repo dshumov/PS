@@ -1,1 +1,0 @@
-gpresult /s <комп> /scope computer /r

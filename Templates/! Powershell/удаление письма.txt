@@ -1,1 +1,0 @@
-get-mailbox -OrganizationalUnit Needed_OU -ResultSize unlimited | Search-Mailbox -SearchQuery Subject:'Very bad message' -TargetMailbox mailbox@mailbox.com -TargetFolder Inbox –DeleteContent

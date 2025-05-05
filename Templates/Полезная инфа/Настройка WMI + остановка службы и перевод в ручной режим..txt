@@ -1,3 +1,0 @@
-Winrm quickconfig -quiet
-sc stop WinRM
-sc config WinRM start= demand

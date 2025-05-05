@@ -1,2 +1,0 @@
-sc \\cp111 stop WinRM
-sc \\cp111 config WinRM start= demand
